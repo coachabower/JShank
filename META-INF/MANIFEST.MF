@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Slicing
+Bundle-SymbolicName: com.small.plugin.slicing;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: SMALL
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.jdt.core;bundle-version="3.9.1",
+ org.eclipse.core.resources;bundle-version="3.8.101",
+ org.eclipse.core.runtime;bundle-version="3.9.0",
+ org.eclipse.core.expressions;bundle-version="3.4.500"
+Bundle-ActivationPolicy: lazy
+Bundle-Activator: activator.SliceActivator
