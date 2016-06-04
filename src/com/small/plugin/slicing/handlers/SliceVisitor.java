@@ -19,7 +19,7 @@ import org.eclipse.jdt.core.dom.VariableDeclarationFragment;
 import org.eclipse.jdt.core.dom.WhileStatement;
 
 /**
- * This is where the magic happens.
+ * This is where the Slicing magic happens.
  * 
  * An AST Method node is passed in, then
  * all node types are visited and assessed
